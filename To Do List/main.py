@@ -12,7 +12,7 @@ class TodoApp:
 
         # Create an entry widget for entering tasks
         self.task_entry = tk.Entry(master, width=40)
-        self.task_entry.grid(row=0, column=0, padx=10, pady=10)  # Place the entry widget in the window
+        self.task_entry.grid(row=0, column=0, padx=10, pady=5)  # Place the entry widget in the window
 
         # Create a button for adding tasks
         self.add_button = tk.Button(master, text="Add Task", command=self.add_task)
